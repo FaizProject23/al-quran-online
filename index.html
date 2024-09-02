@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Al-Qur'an Online | By Mas Paiss</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>Al-QUR'AN ONLINE</h2>
+
+        <ul>
+          <li>
+            <input type="text" placeholder="Masukan nomor surah..." id="inputan" onchange="getData()"/>
+            <button onclick="getData()" class="btn">Cari</button>
+          </li>
+          <li>
+            <a href="tutorial-site/tutorial.html">Nomor Al-Qur'an</a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="material-symbols-outlined">
+                volunteer_activism
+              </span>
+            </a>
+          </li>
+        </ul>
+      </header>
+
+      <div class="about">
+        <p>Created By: <a href="">@Mas Paiss</a></p>
+        <p>API By: <a href="https://santrikoding.com/">santrikoding.com</a></p>
+      </div>
+    </div>
+
+    <div id="surat"></div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+

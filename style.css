@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@font-face {
+  font-family: "alquran";
+  src: url("src/alquran.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f9ff;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Josefin Sans", arial;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+}
+
+a {
+  color: #333;
+}
+
+ul li input {
+  width: 12rem;
+  padding: 4px;
+}
+
+.btn {
+  width: 50px;
+  padding: 5px;
+  border: none;
+  background-color: #009619;
+  border-radius: 10px;
+  color: #e3fff0;
+  cursor: pointer;
+}
+
+#surat {
+  width: 70%;
+  height: 500px;
+  overflow: scroll;
+  display: block;
+  padding: 0 0;
+  margin: 0 auto;
+  background-color: #e3fff0;
+  font-family: "Josefin Sans";
+  direction: rtl;
+  border-radius: 20px;
+}
+
+#surat ul {
+  list-style: none;
+}
+
+#surat .judul {
+  width: 100%;
+  padding: 15px;
+  background-color: #009619;
+  color: #e3fff0;
+  font-size: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  direction: ltr;
+  align-items: center;
+  text-transform: capitalize;
+  
+}
+
+#surat .content {
+  margin: 10px 2em;
+}
+
+.ayat {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: .8em 0;
+  font-family: "alquran";
+}
+
+.arti {
+  font-size: 1.1rem;
+  direction: ltr;
+}
+
+.about {
+  width: 100%;
+  height: 50px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  font-family: sans-serif;
+}

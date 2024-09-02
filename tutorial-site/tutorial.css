@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f9ff;
+  color: #333;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Josefin Sans", arial;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+}
+
+a {
+  color: #333;
+}
+
+.content {
+  width: 70%;
+  height: 500px;
+  overflow: scroll;
+  display: block;
+  padding: 0 0;
+  margin: 30px auto;
+  background-color: #e3fff0;
+  font-family: "Josefin Sans";
+  border-radius: 20px;
+}
+
+.content header {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  background-color: #009619;
+  color: #e3fff0;
+}
+
+#surah {
+  width: 100%;
+  padding: 20px 30px;
+  font-size: 1.2em;
+}
+
+#surah ul{
+  display: flex;
+  list-style: none;
+  gap: 5px;
+}
